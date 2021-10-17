@@ -24,7 +24,7 @@ body {
 }
 
 .navbar-toggler {
-  color: #749C75;
+  background-color: #294D4A;
   border: 1px solid #FFFBFF;
 }
 
@@ -68,9 +68,17 @@ body {
 }
 
 img {
-  position: absolute;
+  position: relative;
   bottom: 0px;
   right: 0px;
+}
+
+@media screen and (max-width: 360px) {
+  img {
+    width: 100%;
+    bottom: 0px;
+    right: 0px;
+  }
 }
 
 #gallery {
