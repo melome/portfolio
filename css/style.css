@@ -17,7 +17,6 @@ body {
 
 .navbar {
   background-color: #294D4A;
-  height: 10vh;
 }
 
 .navbar-brand {
@@ -42,7 +41,7 @@ body {
   justify-content: space-between;
   align-items: end;
   align-content: flex-end;
-  height: 90vh;
+  height: 100vh;
   padding-left: 1em;
 }
 
