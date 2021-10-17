@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;500;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FFFBFF;
+  font-family:'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: #294D4A;
+  height: 10vh;
+}
+
+.navbar-brand {
+  color: #FFFBFF;
+}
+
+.navbar-toggler {
+  color: #749C75;
+  border: 1px solid #FFFBFF;
+}
+
+.nav-link {
+  color: #749C75;
+}
+
+.cust-container {
+}
+
+#landing {
+  text-align: center;
+  background-color: #fffbff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: end;
+  align-content: flex-end;
+  height: 90vh;
+  padding-left: 1em;
+}
+
+#landing > div.intro {
+  align-self: center;
+  text-align: right;
+  padding-left: 25px;
+}
+
+#landing > div.intro > h1 {
+  font-weight: 600;
+}
+
+#landing > div.intro > h2 {
+  color: #294D4A;
+  font-weight: 600;
+}
+
+#landing > div > p {
+  padding: 15px 0 0;
+}
+
+img {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#gallery {
+  background-color: #294D4A;
+  color: #FFFBFF;
+  padding: 3em 1em 1em;
+}
+
+.card {
+  background-color: #294D4A;
+  margin: 25px;
+}
+
+.tools {
+  text-align: center;
+  padding: 2em;
+  border: #749C75 5px solid;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 0;
+}
+
