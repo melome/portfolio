@@ -73,7 +73,7 @@ img {
   right: 0px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   img {
     width: 100%;
     bottom: 0px;
