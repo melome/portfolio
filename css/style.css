@@ -15,6 +15,10 @@ body {
   font-family:'Poppins', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
 .navbar {
   background-color: #294D4A;
 }
@@ -41,8 +45,8 @@ body {
   justify-content: space-between;
   align-items: end;
   align-content: flex-end;
-  height: 100vh;
   padding-left: 5em;
+  height: 100vh;
 }
 
 #landing > div.intro {
@@ -109,10 +113,32 @@ img {
 }
 }
 
-#gallery {
+.container {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+#tech-stack {
   background-color: #294D4A;
   color: #FFFBFF;
   padding: 3em 1em 1em;
+  text-align: center;
+  height: 100vh;
+}
+
+
+ul, li {
+  text-align: left;
+  list-style-type: none;
+
+}
+
+#gallery {
+  
 }
 
 .card {
@@ -120,18 +146,17 @@ img {
   margin: 25px;
 }
 
+.green-card {
+  background-color: #294D4A;
+  border: 3px solid #749C75;
+  margin: 25px;
+  padding: 1em 0 0;
+  min-width: 200px;
+  /* width: 300px; */
+}
+
 .tools {
   text-align: center;
   padding: 2em;
   border: #749C75 5px solid;
 }
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  padding: 0;
-}
-
